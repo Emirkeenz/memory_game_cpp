@@ -7,7 +7,7 @@
 #include <functional>
 using namespace std;
 
-void tapEnter() {     // Нажатие enter
+void tapEnter() {
   cout << "Press Enter to continue...";
   cin.clear();
   cin.ignore(numeric_limits<streamsize>::max(), '\n');  
